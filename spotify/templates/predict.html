@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <section>
+        <header>
+            <h2>Song Recommender</h2>
+        </header>
+        <div class="content">
+            <p>
+                <strong>Enter a song and artist</strong>
+                 to find out similar songs...
+            </p>
+            <form method="POST" action="/">
+                <input type="text" name="name">
+                <input type="text" name="name">
+                <input type="submit" value="Add">
+              </form>
+            <div>
+                {{top_hits}}
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
