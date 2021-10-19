@@ -1,8 +1,7 @@
 '''Song_Suggester app logic'''
 import os
 from flask import Flask, render_template, request
-from models import DB, Song
-from app import *
+from .models import DB, Song
 
 
 
